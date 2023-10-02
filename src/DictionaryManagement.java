@@ -36,13 +36,6 @@ public class DictionaryManagement extends Dictionary{
         for( int i=0; i<dict.size(); i++){
             for(int j=i+1; j<dict.size(); j++){
                 if(dict.get(i).getWordTarget().compareTo(dict.get(j).getWordTarget()) > 0){
-//                    String tmp = arr.get(i).getWordTarget();
-//                    arr.get(i).getWordTarget() = arr.get(j).getWordTarget();
-//                    arr.get(j).getWordTarget() = tmp;
-
-                    //swap(dict.get(i), dict.get(j));
-//                    Word tmp1 = dict.get(i);
-//                    Word tmp2 = dict.get(j);
                     Word tmp = dict.get(j);
                     dict.set(j, dict.get(i));
                     dict.set(i, tmp);
