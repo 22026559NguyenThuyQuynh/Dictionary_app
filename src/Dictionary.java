@@ -4,7 +4,7 @@ public class Dictionary {
     ArrayList<Word> dict;
 
     public Dictionary(){
-
+// tmp
         dict = new ArrayList<Word>();
     }
 
