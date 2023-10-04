@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Dictionary {
-    ArrayList<Word> dict;
+    protected ArrayList<Word> dict;
 
     public Dictionary(){
 // tmp
